@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Bài tập 1 -->
+    <h1>Bài tập 1</h1>
+    <h3>SƠ ĐỒ 3 KHỐI</h3>
+    <p>*INPUT: Lương 1 ngày, số ngày làm</p>
+    <p>*PROCESS:</p>
+    <ol>
+      <li>Lấy Input: Nhập lương 1 ngày và sô ngày làm việc</li>
+      <li>Công thức tính tiền = lương 1 ngày * số ngày làm</li>
+      <li>In kết quả</li>
+    </ol>
+    <p>* OUTPUT: Lương</p>
+    <hr />
+    <input type="text" placeholder="Nhập họ tên" id="fullName" />
+    <input type="text" placeholder="Nhập lương 1 ngày" id="salaryOfDay" />
+    <input type="text" placeholder="Nhập số ngày làm" id="day" />
+    <button onclick="salary()">Kết Quả</button>
+    <div id="info"></div>
+    <hr />
+    <!-- Bài 2 -->
+    <h1>Bài tập 2</h1>
+    <h3>SƠ ĐỒ 3 KHỐI</h3>
+    <p>*INPUT: 5 số thực</p>
+    <p>*PROCESS:</p>
+    <ol>
+      <li>Lấy Input: Nhập 5 số thực</li>
+      <li>Công thức tính giá trị trung bình = (Tổng 5 số thực) / 5</li>
+      <li>In kết quả</li>
+    </ol>
+    <p>* OUTPUT: Giá trị trung bình của số thực</p>
+    <hr />
+    <input type="text" id="a" placeholder="Nhập số thực thứ 1" />
+    <input type="text" id="b" placeholder="Nhập số thực thứ 2" />
+    <input type="text" id="c" placeholder="Nhập số thực thứ 3" />
+    <input type="text" id="d" placeholder="Nhập số thực thứ 4" />
+    <input type="text" id="e" placeholder="Nhập số thực thứ 5" />
+    <button onclick="average()">Kết Quả</button>
+    <div id="info2"></div>
+    <hr />
+    <!-- Bài 3 -->
+    <h1>Bài tập 3</h1>
+    <h3>SƠ ĐỒ 3 KHỐI</h3>
+    <p>*INPUT: giá 1 USD</p>
+    <p>*PROCESS:</p>
+    <ol>
+      <li>Lấy Input: Nhập vào số USD cần quy đổi</li>
+      <li>Công thức quy đổi USD sang VND = số lượng USD quy đổi * giá 1 USD</li>
+      <li>In kết quả</li>
+    </ol>
+    <p>* OUTPUT: Số tiền sau khi quy đổi ra VND</p>
+    <hr />
+    <input type="text" placeholder="Nhập số lượng USD cần đổi" id="y" />
+    <button onclick="changeMoney()">Kết Quả</button>
+    <div id="info3"></div>
+    <hr />
+    <!-- Bài 4 -->
+    <h1>Bài tập 4</h1>
+    <h3>SƠ ĐỒ 3 KHỐI</h3>
+    <p>*INPUT: Chiều dài, chiều rộng</p>
+    <p>*PROCESS:</p>
+    <ol>
+      <li>Lấy Input: Nhập chiều dài, chiều rộng</li>
+      <li>Công thức tính chu vi = (chiều dài + chiều rộng)*2</li>
+      <li>Công thức tính diện tích = chiều dài * chiều rộng</li>
+      <li>In kết quả</li>
+    </ol>
+    <p>* OUTPUT: Diện tích, chu vi</p>
+    <hr />
+    <input type="text" placeholder="Nhập chiều dài" id="f" />
+    <input type="text" placeholder="Nhập chiều rộng" id="g" />
+    <button onclick="calculation()">Kết Quả</button>
+    <div id="info4"></div>
+    <hr />
+    <!-- Bài 5 -->
+    <h1>Bài tập 5</h1>
+    <h3>SƠ ĐỒ 3 KHỐI</h3>
+    <p>*INPUT: 1 số có 2 chữ số</p>
+    <p>*PROCESS:</p>
+    <ol>
+      <li>Lấy Input: nhập 1 số có 2 chữ số</li>
+      <li>Công thức lấy số hàng đơn vị = m % 10</li>
+      <li>Công thức lấy hàng chục = Math.floor(m/10)</li>
+      <li>In kết quả</li>
+    </ol>
+    <p>*OUTPUT: Tổng 2 chữ số</p>
+    <hr />
+    <input type="text" placeholder="Nhập 1 số có 2 chữ số" id="m" />
+    <button onclick="calculation1()">Kết Quả</button>
+    <div id="info5"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
